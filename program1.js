@@ -19,7 +19,7 @@ var isValid = function(s) {
         stack.pop();
     }
     else{
-        console.log("false")
+        return false
 
     }
 
