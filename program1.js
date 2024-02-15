@@ -5,7 +5,7 @@
 var isValid = function(s) {
     const leftSymbols=[];
     for(let i=0;i<stack.length;i++){
-        const top=leftSynbols[leftSynbols.length-1]
+        const top=leftSymbols[leftSymbols.length-1]
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
         leftSynbols.push(s[i]);
     else if(s[i]===')' && top==='(' && s.length!==0){
