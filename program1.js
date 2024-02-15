@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    const s=[];
+    const stack=[];
     for(let i=0;i<s.length;i++){
         const top=s[s.length-1]
     }
