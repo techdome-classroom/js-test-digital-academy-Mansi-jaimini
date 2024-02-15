@@ -10,7 +10,7 @@ var isValid = function(s) {
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
         stack.push(s[i]);
     else if(s[i]===')' && top==='(' && s.length!==0){
-        stack.push(s[i]);
+        stack.pop();
     }
     if()
    
