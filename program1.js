@@ -21,7 +21,7 @@ var isValid = function(s) {
         return false
     }
 }
-return stack.length===0;
+return leftSymbols.length===0;
 };
 
 module.exports = { isValid };
