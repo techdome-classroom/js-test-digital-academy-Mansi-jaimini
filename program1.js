@@ -11,7 +11,7 @@ var isValid = function(s) {
     else if(s[i]===')' && leftSymbols.length===0&&leftSymbol[leftSymbols.length-1]==='('){
         leftSymbols.pop();
     }
-    else if(s[i]==='}' && top==='{' && s.length!==0){
+    else if(s[i]==='}' && leftSymbols.length===0&&leftSymbol[leftSymbols.length-1]==='('){
         leftSymbols.pop();
     }
     else if(s[i]===']' && top==='[' && s.length!==0){
