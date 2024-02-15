@@ -9,7 +9,7 @@ var isValid = function(s) {
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
         leftSynbols.push(s[i]);
     else if(s[i]===')' && top==='(' && s.length!==0){
-        stack.pop();
+        leftSynbols.pop();
     }
     else if(s[i]==='}' && top==='{' && s.length!==0){
         stack.pop();
