@@ -3,9 +3,9 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    const romanMap=new Map();
-    
-    }
+    if(str1==null)
+    return -1;
+var num=char
 
 
     
