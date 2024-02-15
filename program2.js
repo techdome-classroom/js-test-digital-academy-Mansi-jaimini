@@ -14,7 +14,6 @@ var romanToInt = function(s) {
     const n=s.length();
     let num=romanMap.get(s. [n-1]);
     for(let i=n-2;i>0;i--){
-        const top=stack[]
     }
 
 
