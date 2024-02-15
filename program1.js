@@ -20,7 +20,6 @@ var isValid = function(s) {
     }
     else{
         return false
-
     }
 };
 
