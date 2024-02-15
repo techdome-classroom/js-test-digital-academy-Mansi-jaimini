@@ -5,7 +5,7 @@
 var isValid = function(s) {
     const s=[];
     for(let i=0;i<s.length;i++){
-        const top
+        const top=s[]
     }
     
 };
