@@ -6,7 +6,6 @@ var isValid = function(s) {
     const stack=[];
     for(let i=0;i<stack.length;i++){
         const top=stack[stack.length-1]
-    }
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
         stack.push(s[i]);
     else if(s[i]===')' && top==='(' && s.length!==0){
@@ -21,7 +20,7 @@ var isValid = function(s) {
     else{
         return false
     }
-    
+
 };
 
 module.exports = { isValid };
