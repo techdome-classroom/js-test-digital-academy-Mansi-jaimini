@@ -18,9 +18,6 @@ var isValid = function(s) {
     else if(s[i]===']' && top==='[' && s.length!==0){
         stack.pop();
     }
-    if(s[i]===top){
-        console.log("true")
-    }
     else{
         console.log("false")
 
