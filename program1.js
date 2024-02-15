@@ -19,7 +19,7 @@ var isValid = function(s) {
         stack.pop();
     }
     if(s[i]===top){
-        
+        console.log("true")
 
     }
 
