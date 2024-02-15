@@ -7,7 +7,7 @@ var isValid = function(s) {
     for(let i=0;i<s.length;i++){
         const top=s[s.length-1]
     }
-    if(s[i]==='(')
+    if(s[i]==='(' )
     
 };
 
