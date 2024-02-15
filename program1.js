@@ -22,7 +22,7 @@ var isValid = function(s) {
         console.log("true")
     }
     else{
-        console.log("true")
+        console.log("false")
 
     }
 
