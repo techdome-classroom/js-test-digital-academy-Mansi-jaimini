@@ -7,12 +7,12 @@ var isValid = function(s) {
     for(let i=0;i<stack.length;i++){
         const top=leftSymbols[leftSymbols.length-1]
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
-        leftSynbols.push(s[i]);
+        leftSymbols.push(s[i]);
     else if(s[i]===')' && top==='(' && s.length!==0){
-        leftSynbols.pop();
+        leftSymbols.pop();
     }
     else if(s[i]==='}' && top==='{' && s.length!==0){
-        leftSynbols.pop();
+        leftSymbols.pop();
     }
     else if(s[i]===']' && top==='[' && s.length!==0){
         leftSymbols.pop();
