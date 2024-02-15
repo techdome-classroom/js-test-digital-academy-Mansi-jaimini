@@ -8,7 +8,7 @@ var isValid = function(s) {
         const top=leftSymbols[leftSymbols.length-1]
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
         leftSymbols.push(s[i]);
-    else if(s[i]===')' && leftSymbols.length===0&&leftSymbol[leftSymbols.length-1]){
+    else if(s[i]===')' && leftSymbols.length===0&&leftSymbol[leftSymbols.length-1]==='('){
         leftSymbols.pop();
     }
     else if(s[i]==='}' && top==='{' && s.length!==0){
