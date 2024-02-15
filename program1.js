@@ -12,10 +12,10 @@ var isValid = function(s) {
     else if(s[i]===')' && top==='(' && s.length!==0){
         stack.pop();
     }
-    else if(s[i]==='}' && top==='(' && s.length!==0){
+    else if(s[i]==='}' && top==='{' && s.length!==0){
         stack.pop();
     }
-    else if(s[i]===']' && top==='(' && s.length!==0){
+    else if(s[i]===']' && top==='[' && s.length!==0){
         stack.pop();
     }
     if(s[i]===s[i]){
