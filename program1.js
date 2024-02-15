@@ -20,7 +20,9 @@ var isValid = function(s) {
     }
     if(s[i]===top){
         console.log("true")
-
+    }
+    else{
+        
     }
 
     
