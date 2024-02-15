@@ -11,7 +11,8 @@ var romanToInt = function(s) {
     romanMap.set('C',100);
     romanMap.set('D',500);
     romanMap.set('M',1000);
-    const n=s.length
+    const n=s.length();
+    let num
 
 
     
