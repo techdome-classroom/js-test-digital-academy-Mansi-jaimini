@@ -10,6 +10,7 @@ var romanToInt = function(s) {
     romanMap.set('l',50);
     romanMap.set('c',100);
     romanMap.set('D',500);
+    romanMap.set('',1000);
 
 
     
