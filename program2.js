@@ -3,7 +3,8 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    string=('I', 'V', 'X', 'L', 'C', 'D', 'M');
+    let string=('I', 'V', 'X', 'L', 'C', 'D', 'M');
+    
     
 };
 
