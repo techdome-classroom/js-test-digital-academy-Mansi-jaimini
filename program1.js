@@ -15,7 +15,7 @@ var isValid = function(s) {
         leftSynbols.pop();
     }
     else if(s[i]===']' && top==='[' && s.length!==0){
-        leftSynbols.pop();
+        leftSymbols.pop();
     }
     else{
         return false
