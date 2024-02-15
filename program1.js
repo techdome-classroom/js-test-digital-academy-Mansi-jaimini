@@ -22,10 +22,6 @@ var isValid = function(s) {
         return false
 
     }
-
-    
-   
-    
 };
 
 module.exports = { isValid };
