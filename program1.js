@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    const leftSynbols=[];
+    const leftSymbols=[];
     for(let i=0;i<stack.length;i++){
         const top=leftSynbols[leftSynbols.length-1]
     if(s[i]==='(' || s[i]==='{' ||s[i]==='[')
